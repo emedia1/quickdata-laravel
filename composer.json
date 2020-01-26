@@ -11,12 +11,12 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
-            "url": "git@bitbucket.org:elegantmedia/laravel-helpers.git"
+            "type": "git",
+            "url": "https://github.com/emedia1/laravel-helpers.git"
         },
         {
-            "type": "vcs",
-            "url": "git@bitbucket.org:elegantmedia/php-helpers.git"
+            "type": "git",
+            "url": "https://github.com/emedia1/php-helpers.git"
         }
     ],
     "require": {
@@ -24,7 +24,7 @@
         "illuminate/support": "^5.7",
         "illuminate/http": "^5.7",
         "cviebrock/eloquent-sluggable": "^4.2",
-        "emedia/helpers": "~2.0"
+        "emedia/helpers": "1.0"
     },
     "autoload": {
         "classmap": [
